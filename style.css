@@ -17,6 +17,7 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 body {
   font-family: "inter", sans-serif;
+  color: #343a40;
 }
 
 .container {
@@ -70,7 +71,18 @@ h1 {
 img {
   width: 100%;
 }
-
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 26px 32px;
+}
+.btn:hover,
+.btn:active {
+}
 /* FEATURES */
 .features-icon {
 }
