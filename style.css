@@ -38,7 +38,7 @@ h2 {
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 80px;
+  column-gap: 50px;
 }
 
 /* ------------------------ */
@@ -94,6 +94,8 @@ img {
 }
 /* FEATURES */
 .features-icon {
+  color: #087f5b;
+  size: 24px;
 }
 
 .features-title {
