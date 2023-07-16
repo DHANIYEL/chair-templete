@@ -78,10 +78,19 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  padding: 26px 32px;
+  display: inline-block;
 }
 .btn:hover,
 .btn:active {
+  background-color: #18765a;
+}
+.btn--big {
+  padding: 26px 32px;
+  font-size: 16px;
+}
+.btn--small {
+  padding: 8px 12px;
+  font-size: 14px;
 }
 /* FEATURES */
 .features-icon {
@@ -99,6 +108,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
