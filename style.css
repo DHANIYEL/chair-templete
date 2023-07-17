@@ -78,19 +78,20 @@ img {
 .btn:link,
 .btn:visited {
   background-color: #087f5b;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
   display: inline-block;
+  border-radius: 100px;
 }
 .btn:hover,
 .btn:active {
   background-color: #18765a;
 }
 .btn--big {
-  padding: 26px 32px;
-  font-size: 16px;
+  padding: 16px 32px;
+  font-size: 18px;
 }
 .btn--small {
   padding: 8px 12px;
